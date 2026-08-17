@@ -27,20 +27,17 @@ Then open http://localhost:8080
 
 ## Update and deploy
 
-Cloudflare Pages is connected to the GitHub repo. Any push to `main` deploys automatically.
+Save changes to GitHub, then deploy to Cloudflare Pages:
 
 ```bash
 cd ~/megha-portfolio
 git add .
 git commit -m "Update portfolio"
 git push
-```
-
-Manual deploy is also available:
-
-```bash
 npm run deploy
 ```
+
+The Cloudflare Pages project is connected to the GitHub repo. If the Cloudflare GitHub app is granted access to this repo in the dashboard, pushes to `main` can also deploy automatically.
 
 ## Custom domain
 
