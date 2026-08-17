@@ -1,0 +1,13 @@
+{
+  "name": "megha-upadhyay-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static portfolio website for Megha Upadhyay.",
+  "scripts": {
+    "start": "python3 -m http.server 8080",
+    "deploy": "wrangler pages deploy . --project-name=megha-upadhyay --branch=main --commit-dirty=true"
+  },
+  "devDependencies": {
+    "wrangler": "latest"
+  }
+}
