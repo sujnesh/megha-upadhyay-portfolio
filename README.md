@@ -44,4 +44,9 @@ npm run deploy
 
 ## Custom domain
 
-The site is already live on Cloudflare Pages. To use `meghaupadhyay.com`, point the GoDaddy domain to Cloudflare nameservers after the Cloudflare zone is added/activated, then attach the domain to the Pages project.
+The site is already live on Cloudflare Pages. The Cloudflare zone has been added and DNS records are prepared. In GoDaddy, change the domain nameservers to:
+
+- `barbara.ns.cloudflare.com`
+- `nick.ns.cloudflare.com`
+
+After propagation, `meghaupadhyay.com` and `www.meghaupadhyay.com` will validate against the Pages project.
