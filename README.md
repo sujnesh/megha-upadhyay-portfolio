@@ -1,6 +1,6 @@
 # Megha Upadhyay Portfolio
 
-Creative static portfolio for Megha Upadhyay.
+Creative static portfolio for Megha Upadhyay — Social Media & Brand Manager / Video Content Producer.
 
 - Live Cloudflare Pages URL: https://megha-upadhyay.pages.dev
 - GitHub repo: https://github.com/sujnesh/megha-upadhyay-portfolio
@@ -12,7 +12,7 @@ Creative static portfolio for Megha Upadhyay.
 - `styles.css` — creative visual system and responsive design
 - `script.js` — scroll reveal, custom cursor, video modal, interactions
 - `_headers` — security/cache headers for Cloudflare Pages
-- `assets/megha-upadhyay-resume.pdf` — latest resume copied from Downloads
+- `assets/megha-upadhyay-resume.pdf` — latest 2-page resume copied from Downloads
 - `assets/megha-upadhyay-portfolio.pdf` — latest portfolio copied from Downloads
 - `assets/favicon.svg`, `assets/og-card.svg` — brand/social assets
 

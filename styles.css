@@ -339,8 +339,8 @@ button {
 .contact-card h2 {
   margin: 18px 0 0;
   font-family: var(--display);
-  font-size: clamp(3.1rem, 7vw, 6.8rem);
-  line-height: 0.9;
+  font-size: clamp(3rem, 6.2vw, 5.8rem);
+  line-height: 0.94;
   letter-spacing: -0.075em;
   text-wrap: balance;
 }

@@ -16,8 +16,8 @@
   <g transform="translate(780 430)" fill="none" stroke-linecap="round" stroke-width="14">
     <path d="M0 70V20" stroke="#ff3d8b"/><path d="M35 70V0" stroke="#ffe66d"/><path d="M70 70V35" stroke="#3af7ff"/><path d="M105 70V10" stroke="#ff3d8b"/><path d="M140 70V42" stroke="#ffe66d"/>
   </g>
-  <text x="92" y="166" fill="#ffe66d" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900" letter-spacing="8">VIDEO · SOCIAL · STORY</text>
-  <text x="86" y="324" fill="url(#text)" font-family="Arial Black, Impact, sans-serif" font-size="96" font-weight="900" letter-spacing="-8">Megha Upadhyay</text>
-  <text x="92" y="404" fill="#fff7ea" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="800" letter-spacing="-1.6">Video-first content marketer</text>
-  <text x="92" y="474" fill="#cfbdc8" font-family="Inter, Arial, sans-serif" font-size="27">Scripting · Production · Social strategy · Performance storytelling</text>
+  <text x="92" y="150" fill="#ffe66d" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="900" letter-spacing="7">BRAND · CONTENT · VIDEO</text>
+  <text x="86" y="300" fill="url(#text)" font-family="Arial Black, Impact, sans-serif" font-size="94" font-weight="900" letter-spacing="-8">Megha Upadhyay</text>
+  <text x="92" y="378" fill="#fff7ea" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="800" letter-spacing="-1.4">Social Media &amp; Brand Manager</text>
+  <text x="92" y="446" fill="#cfbdc8" font-family="Inter, Arial, sans-serif" font-size="27">8+ years · 300+ videos · Founder comms · Brand building from zero</text>
 </svg>
