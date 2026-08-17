@@ -1,12 +1,17 @@
 # Megha Upadhyay Portfolio
 
-Creative static portfolio for `meghaupadhyay.com`.
+Creative static portfolio for Megha Upadhyay.
+
+- Live Cloudflare Pages URL: https://megha-upadhyay.pages.dev
+- GitHub repo: https://github.com/sujnesh/megha-upadhyay-portfolio
+- Target domain: `meghaupadhyay.com`
 
 ## Files
 
 - `index.html` — website content and SEO metadata
 - `styles.css` — creative visual system and responsive design
 - `script.js` — scroll reveal, custom cursor, video modal, interactions
+- `_headers` — security/cache headers for Cloudflare Pages
 - `assets/megha-upadhyay-resume.pdf` — latest resume copied from Downloads
 - `assets/megha-upadhyay-portfolio.pdf` — latest portfolio copied from Downloads
 - `assets/favicon.svg`, `assets/og-card.svg` — brand/social assets
@@ -20,17 +25,23 @@ python3 -m http.server 8080
 
 Then open http://localhost:8080
 
-## Deploy options for GoDaddy domain
+## Update and deploy
 
-### If you have GoDaddy hosting/cPanel
+Cloudflare Pages is connected to the GitHub repo. Any push to `main` deploys automatically.
 
-Upload the contents of this folder (`index.html`, `styles.css`, `script.js`, `assets/`) into the site root, usually `public_html/`.
+```bash
+cd ~/megha-portfolio
+git add .
+git commit -m "Update portfolio"
+git push
+```
 
-### If you want modern static hosting
+Manual deploy is also available:
 
-Use Vercel/Netlify/Cloudflare Pages and point `meghaupadhyay.com` from GoDaddy DNS to that host. For Vercel, typical DNS records are:
+```bash
+npm run deploy
+```
 
-- `A` record: `@` → `76.76.21.21`
-- `CNAME` record: `www` → `cname.vercel-dns.com`
+## Custom domain
 
-Always confirm the exact DNS values shown by the hosting provider before changing production DNS.
+The site is already live on Cloudflare Pages. To use `meghaupadhyay.com`, point the GoDaddy domain to Cloudflare nameservers after the Cloudflare zone is added/activated, then attach the domain to the Pages project.
