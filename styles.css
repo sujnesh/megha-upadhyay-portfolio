@@ -84,6 +84,10 @@ a {
   text-decoration: none;
 }
 
+section[id] {
+  scroll-margin-top: 120px;
+}
+
 button,
 a {
   -webkit-tap-highlight-color: transparent;
@@ -137,6 +141,7 @@ button {
 }
 
 .cursor {
+  display: none;
   position: fixed;
   left: 0;
   top: 0;
