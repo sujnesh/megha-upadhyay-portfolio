@@ -12,7 +12,8 @@ Creative static portfolio for Megha Upadhyay — Social Media & Brand Manager / 
 - `styles.css` — creative visual system and responsive design
 - `script.js` — scroll reveal, custom cursor, video modal, interactions
 - `_headers` — security/cache headers for Cloudflare Pages
-- `assets/megha-upadhyay-resume.pdf` — latest 2-page resume copied from Downloads
+- `assets/megha-upadhyay-brand-manager-resume-2026.pdf` — latest 2-page resume copied from Downloads
+- `assets/megha-upadhyay-resume.pdf` — legacy resume URL, also replaced with the latest PDF
 - `assets/megha-upadhyay-portfolio.pdf` — latest portfolio copied from Downloads
 - `assets/favicon.svg`, `assets/og-card.svg` — brand/social assets
 
